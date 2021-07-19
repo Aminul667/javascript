@@ -1,0 +1,10 @@
+
+let number = max(3, 2);
+console.log(number);
+
+function max(a, b) {
+    // if (a > b) return a;
+    // return b;
+
+    return (a > b) ? a : b;
+}
